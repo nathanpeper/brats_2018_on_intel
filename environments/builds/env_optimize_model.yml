@@ -1,0 +1,19 @@
+name: optimize_model
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - pip>=22.0.4
+  - ipykernel
+  - tensorflow
+  - tqdm
+  - matplotlib
+  - ipywidgets
+  - ipympl
+  - click
+  - python-dotenv
+  - psutil
+  - pip:
+    - nibabel
+    - openvino-dev[tensorflow2]

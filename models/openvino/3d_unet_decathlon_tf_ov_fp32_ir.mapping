@@ -1,0 +1,1523 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="mrimages" output_port_id="mrimages:0" />
+		<IR name="mrimages" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="mrimages" output_port_id="mrimages:0" />
+		<IR name="mrimages" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="mrimages" output_port_id="mrimages:0" />
+		<IR name="mrimages" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/input/_0" output_port_id="mrimages:0" />
+		<IR name="mrimages" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="mrimages" output_port_id="mrimages" />
+		<IR name="mrimages" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="mrimages" output_port_id="mrimages" />
+		<IR name="mrimages" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="mrimages" output_port_id="mrimages" />
+		<IR name="mrimages" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/input/_0" output_port_id="mrimages" />
+		<IR name="mrimages" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="mrimages" output_port_id="Func/StatefulPartitionedCall/input/_0:0" />
+		<IR name="mrimages" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="mrimages" output_port_id="Func/StatefulPartitionedCall/input/_0:0" />
+		<IR name="mrimages" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="mrimages" output_port_id="Func/StatefulPartitionedCall/input/_0:0" />
+		<IR name="mrimages" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/input/_0" output_port_id="Func/StatefulPartitionedCall/input/_0:0" />
+		<IR name="mrimages" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_a_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_conv_0/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_a_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_a_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_bn_0/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_a_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_a_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_a_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_a_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_conv_1/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_a_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_a_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_bn_1/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_a_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_a_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_a/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_a/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_a/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_a/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_a/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_a/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/pool_a/MaxPool3D" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/pool_a/MaxPool3D:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/pool_a/MaxPool3D" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/pool_a/MaxPool3D" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/pool_a/MaxPool3D:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/pool_a/MaxPool3D" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_b_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_conv_0/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_b_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_b_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_bn_0/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_b_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_b_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_b_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_b_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_conv_1/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_b_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_b_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_bn_1/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_b_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_b_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_b/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_b/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_b/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_b/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_b/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_b/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/pool_b/MaxPool3D" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/pool_b/MaxPool3D:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/pool_b/MaxPool3D" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/pool_b/MaxPool3D" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/pool_b/MaxPool3D:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/pool_b/MaxPool3D" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_c_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_conv_0/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_c_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_c_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_bn_0/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_c_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_c_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_c_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_c_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_conv_1/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_c_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_c_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_bn_1/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_c_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_c_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_c/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_c/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_c/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_c/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_c/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_c/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/pool_c/MaxPool3D" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/pool_c/MaxPool3D:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/pool_c/MaxPool3D" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/pool_c/MaxPool3D" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/pool_c/MaxPool3D:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/pool_c/MaxPool3D" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_d_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_conv_0/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_d_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_d_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_bn_0/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_d_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_d_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_d_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_d_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_conv_1/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_d_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_d_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_bn_1/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_d_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_d_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_d/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_d/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_d/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_d/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_d/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_d/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/pool_d/MaxPool3D" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/pool_d/MaxPool3D:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/pool_d/MaxPool3D" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/pool_d/MaxPool3D" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/pool_d/MaxPool3D:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/pool_d/MaxPool3D" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_e_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_conv_0/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_e_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_e_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_bn_0/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_e_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_e_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_e_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_e_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_conv_1/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_e_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_e_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_bn_1/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_e_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_e_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_e/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_e/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_e/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/encode_e/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/encode_e/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/encode_e/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/conv3d_transpose/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/conv3d_transpose/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/conv3d_transpose/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/conv3d_transpose/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/conv3d_transpose/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/conv3d_transpose/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/Shape/GatherNCHWtoNHWC" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/Shape:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/Shape" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/Shape:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_1" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_2" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_1/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_1/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_1/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_1/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_1/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_1/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/strided_slice_3" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_2/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_2/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_2/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_2/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_2/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_2/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/mul_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/conv3d_transpose" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/conv3d_transpose:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/conv3d_transpose" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/conv3d_transpose" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/conv3d_transpose:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/conv3d_transpose" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/BiasAdd/Add" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/BiasAdd" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_e/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/concat_d/concat" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/concat_d/concat:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/concat_d/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/concat_d/concat" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/concat_d/concat:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/concat_d/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_c_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_conv_0/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_c_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_c_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_bn_0/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_c_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_c_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_c_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_c_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_conv_1/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_c_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_c_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_bn_1/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_c_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_c_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_c/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_c/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_c/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_c/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_c/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_c/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/conv3d_transpose/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/conv3d_transpose/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/conv3d_transpose/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/conv3d_transpose/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/conv3d_transpose/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/conv3d_transpose/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/Shape/GatherNCHWtoNHWC" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/Shape:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/Shape" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/Shape:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_1" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_2" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_1/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_1/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_1/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_1/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_1/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_1/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/strided_slice_3" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_2/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_2/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_2/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_2/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_2/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_2/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/mul_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/conv3d_transpose" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/conv3d_transpose:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/conv3d_transpose" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/conv3d_transpose" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/conv3d_transpose:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/conv3d_transpose" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/BiasAdd/Add" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/BiasAdd" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_c/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/concat_c/concat" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/concat_c/concat:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/concat_c/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/concat_c/concat" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/concat_c/concat:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/concat_c/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_b_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_conv_0/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_b_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_b_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_bn_0/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_b_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_b_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_b_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_b_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_conv_1/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_b_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_b_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_bn_1/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_b_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_b_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_b/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_b/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_b/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_b/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_b/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_b/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/conv3d_transpose/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/conv3d_transpose/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/conv3d_transpose/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/conv3d_transpose/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/conv3d_transpose/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/conv3d_transpose/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/Shape/GatherNCHWtoNHWC" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/Shape:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/Shape" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/Shape:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_1" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_2" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_1/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_1/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_1/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_1/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_1/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_1/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/strided_slice_3" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_2/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_2/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_2/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_2/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_2/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_2/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/mul_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/conv3d_transpose" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/conv3d_transpose:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/conv3d_transpose" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/conv3d_transpose" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/conv3d_transpose:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/conv3d_transpose" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/BiasAdd/Add" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/BiasAdd" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_b/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/concat_b/concat" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/concat_b/concat:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/concat_b/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/concat_b/concat" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/concat_b/concat:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/concat_b/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_a_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_conv_0/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_a_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_a_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_bn_0/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_a_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_a_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_a_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_a_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_conv_1/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_a_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_a_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_bn_1/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_a_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_a_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_a/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_a/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_a/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/decode_a/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/decode_a/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/decode_a/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/conv3d_transpose/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/conv3d_transpose/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/conv3d_transpose/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/conv3d_transpose/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/conv3d_transpose/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/conv3d_transpose/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/Shape/GatherNCHWtoNHWC" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/Shape:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/Shape" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/Shape:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/Shape/GatherNCHWtoNHWC" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_1" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_2" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_1/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_1/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_1/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_1/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_1/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_1/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack_1" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack_1:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3/stack_2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/strided_slice_3" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_2/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_2/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_2/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_2/y" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_2/y:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_2/y" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_2" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_2:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/mul_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/conv3d_transpose" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/conv3d_transpose:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/conv3d_transpose" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/conv3d_transpose" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/conv3d_transpose:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/conv3d_transpose" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/BiasAdd/Add" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/BiasAdd" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/transconv_a/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/concat_a/concat" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/concat_a/concat:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/concat_a/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/concat_a/concat" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/concat_a/concat:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/concat_a/concat" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/conv_out_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_conv_0/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/conv_out_conv_0/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_bn_0/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/conv_out_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_bn_0/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/conv_out_bn_0/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_conv_0/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/conv_out_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_relu_0/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/conv_out_relu_0/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_relu_0/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/conv_out_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_conv_1/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/conv_out_conv_1/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_bn_1/FusedBatchNormV3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/conv_out_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_bn_1/FusedBatchNormV3" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/conv_out_bn_1/FusedBatchNormV3:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/conv_out_conv_1/BiasAdd/Add/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/conv_out/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/conv_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/conv_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/conv_out/Relu" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/conv_out/Relu:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/conv_out/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Conv3D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Conv3D/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Conv3D/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Conv3D/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Conv3D" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Conv3D:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Conv3D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Conv3D" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Conv3D:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Conv3D" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/BiasAdd/ReadVariableOp" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/BiasAdd/ReadVariableOp:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/BiasAdd/ReadVariableOp" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/BiasAdd/Add" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/BiasAdd" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/BiasAdd:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/BiasAdd/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="Func/StatefulPartitionedCall/output/_119:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_119" output_port_id="Func/StatefulPartitionedCall/output/_119:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="Func/StatefulPartitionedCall/output/_119:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="Func/StatefulPartitionedCall/output/_119:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="Func/StatefulPartitionedCall/output/_119:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_119" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="Identity:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_119" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Func/StatefulPartitionedCall/output/_119" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Identity" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="StatefulPartitionedCall/Identity" output_port_id="StatefulPartitionedCall/Identity:0" />
+		<IR name="StatefulPartitionedCall/3d_unet_decathlon/prediction_mask/Sigmoid" output_port_id="2" />
+	</map>
+</mapping>

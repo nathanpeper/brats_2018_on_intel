@@ -1,0 +1,18 @@
+name: train_model
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - tensorflow
+  - ipykernel
+  - matplotlib
+  - ipywidgets
+  - ipympl
+  - psutil
+  - click
+  - python-dotenv
+  - tqdm
+  - pip>=22.0.4
+  - pip:
+    - nibabel
